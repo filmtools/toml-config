@@ -1,0 +1,7 @@
+{
+    "require": {
+        "league/csv": "^9.2",
+        "yosymfony/toml": "^1.0",
+        "yosymfony/config-loader": "^2.0"
+    }
+}

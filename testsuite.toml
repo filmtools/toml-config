@@ -1,0 +1,44 @@
+# Sample TOML file
+
+[maker]
+name = "John Doe"
+email = "doe@example.com"
+
+[film]
+name = "Basic 400/27"
+iso = "ISO 400/27°"
+din = 27
+
+[developer]
+name = "Kodak HC-110"
+dilution = "1+47"
+
+[camera]
+manufacturer = "Nikon"
+model = "FE"
+lens = "Nikkor AI 85/2"
+
+[[filmtest]]
+time = 600
+exposures = [ 0.1, 0.2, 0.3 ]
+densities = [ 1, 2, 3 ]
+
+[[filmtest]]
+time = 900
+exposures = [ 0.1, 0.2, 0.3 ]
+densities = [ 1, 2, 3 ]
+
+[[filmtest]]
+time = 1200
+exposures = [ 0.1, 0.2, 0.3 ]
+densities = [ 1, 2, 3 ]
+
+[[filmtest]]
+time = 1500
+exposures = [ 0.1, 0.2, 0.3 ]
+densities = [ 1, 2, 3 ]
+
+[[filmtest]]
+time = 1800
+exposures = [ 0.1, 0.2, 0.3 ]
+densities = [ 1, 2, 3 ]
